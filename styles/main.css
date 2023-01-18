@@ -1,56 +1,68 @@
-/* Use media queries to change the page layout for mobile (320px), tablet (768px) and desktop (1200px+) screen sizes
-Position elements */
-
 .container {
   position: relative;
+  justify-content: center;
   background-color: rgb(255, 250, 245);
   font-family: 'Cormorant', serif;
   color:#000000;
-  margin: 100px 200px 100px 200px;
-}
-
-h1 {
-  font-size: 40px;
-}
-
-h2 {
-  font-size: 19px;
+  margin: 100px 175px 100px 175px;
 }
 
 /* Menu navigation */
-.menu-column {
-  position: relative;
-  display: flex;
- 
+
+#myName {
+  font-family: 'Cormorant', serif;
+  font-size: 1.3em;
 }
 
-.nav {
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+nav ul {
+  display: inline-flex;
+  padding: 20px;
+  list-style: none;
+  gap: 10px;
+}
+
+.nav-link {
   color:#2a2a2a;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   text-decoration: none;
   transition: 100ms;
-  padding-top: 2px;
 }
 
-.nav:hover {
+.nav-link:hover {
   color: rgb(144, 82, 58);
   text-decoration: none;
+} 
+
+/* ----- Homepage text ----- */
+
+.homepage-text {
+  padding: 5px 5px 50px 5px;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+p {
+  font-size: 18px;
+  line-height: 24px;
 }
 
 
-li {
-  margin-top: 10px;
-}
-
-/* Blog posts */
+/* ----- Blog posts ----- */
 
 .blog-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   border-top: 1px solid rgb(200, 200, 200);
-  border-bottom: 1px solid rgb(200, 200, 200);
 }
 
 .blog-post {
@@ -93,5 +105,11 @@ li {
   padding-bottom: 5px;
   border-bottom: 1px solid rgb(144, 82, 58);
   align-items: bottom;
+}
+
+/* ----- footer ----- */
+
+.footer {
+  margin-top: 40px;
 }
 
