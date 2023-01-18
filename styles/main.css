@@ -113,3 +113,28 @@ p {
   margin-top: 40px;
 }
 
+
+/* Media queries */
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 25px;
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+  .container {
+    margin: 30px 50px;
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+}
