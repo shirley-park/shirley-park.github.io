@@ -3,7 +3,7 @@
   justify-content: center;
   background-color: rgb(255, 250, 245);
   font-family: 'Cormorant', serif;
-  color:#000000;
+  color:#434343;
   margin: 100px 175px 100px 175px;
 }
 
@@ -100,6 +100,7 @@ p {
 
 .entry-nav {
   font-family: 'Inter', sans-serif;
+  color: #434343;
   font-size: 15px;
   text-decoration: none;
   padding-bottom: 5px;
