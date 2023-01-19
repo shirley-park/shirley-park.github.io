@@ -8,6 +8,10 @@
   margin: 100px 175px 100px 175px;
 }
 
+hr {
+  border-top: 1px solid rgb(200, 200, 200);
+}
+
 /* Menu navigation */
 
 #myName {
@@ -42,15 +46,29 @@ nav ul {
   text-decoration: none;
 } 
 
-/* ----- Homepage text and general text sizes ----- */
+/* ----- General text sizes ----- */
 
 .homepage-text {
   padding: 5px 5px 50px 5px;
 }
 
+h1 {
+  font-size: 2em;
+  font-weight: 300;
+}
+
 h2 {
   font-size: 1.5em;
   font-weight: 300;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 1.5em;
+   font-weight: 300;
 }
 
 p {
@@ -120,14 +138,6 @@ p {
 
 /* ----- Blog entry pages ----- */
 
-h1 {
-  font-size: 2em;
-  font-weight: 300;
-}
-
-h3 {
-  font-weight: 300;
-}
 
 .blog-grid2x2 {
   display: grid;
