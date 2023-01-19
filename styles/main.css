@@ -1,5 +1,6 @@
 .container {
   position: relative;
+  top: auto;
   justify-content: center;
   background-color: rgb(255, 250, 245);
   font-family: 'Cormorant', serif;
