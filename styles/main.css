@@ -143,6 +143,19 @@ h3 {
   margin-top: 20px;
 }
 
+.blog-entry p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.blog-bullets {
+  list-style: none;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
 
 /* ----- Media queries ----- */
 
