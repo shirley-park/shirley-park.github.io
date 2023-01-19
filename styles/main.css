@@ -4,7 +4,7 @@
   justify-content: center;
   background-color: rgb(255, 250, 245);
   font-family: 'Cormorant', serif;
-  color:#434343;
+  color:#3f3c3c;
   margin: 100px 175px 100px 175px;
 }
 
@@ -30,7 +30,7 @@ nav ul {
 }
 
 .nav-link {
-  color:#2a2a2a;
+  color: #3f3c3c;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   text-decoration: none;
@@ -49,7 +49,7 @@ nav ul {
 }
 
 h2 {
-  font-size: 1.4em;
+  font-size: 1.5em;
   font-weight: 300;
 }
 
@@ -84,7 +84,7 @@ p {
 .post-heading {
   font-size: 30px;
   text-decoration: none;
-  color:#2a2a2a;
+  color:#3f3c3c;
   transition: 100ms;
 }
 
@@ -98,18 +98,18 @@ p {
 }
 
 .entry-excerpt {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 19px;
+  line-height: 28px;
 }
 
 .entry-nav {
   font-family: 'Inter', sans-serif;
-  color: #434343;
+  color: #3f3c3c;
   font-size: 15px;
   text-decoration: none;
   padding-bottom: 5px;
   border-bottom: 1px solid rgb(144, 82, 58);
-  align-items: bottom;
+  /* align-items: bottom; */
 }
 
 /* ----- footer ----- */
@@ -119,6 +119,15 @@ p {
 }
 
 /* ----- Blog entry pages ----- */
+
+h1 {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+h3 {
+  font-weight: 300;
+}
 
 .blog-grid2x2 {
   display: grid;
