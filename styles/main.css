@@ -143,6 +143,11 @@ p {
     display: grid;
     grid-template-columns: 100%;
   }
+
+  .blog-grid2x2 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1000px){
@@ -156,3 +161,4 @@ p {
   }
 
 }
+
