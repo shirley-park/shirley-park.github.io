@@ -12,6 +12,7 @@
 
 #myName {
   font-family: 'Cormorant', serif;
+  font-weight: 300;
   font-size: 1.3em;
 }
 
@@ -48,11 +49,13 @@ nav ul {
 }
 
 h2 {
-  font-size: 1.3em;
+  font-size: 1.4em;
+  font-weight: 300;
 }
 
 p {
-  font-size: 19px;
+  font-size: 20px;
+  font-weight: 400;
   line-height: 24px;
 }
 
