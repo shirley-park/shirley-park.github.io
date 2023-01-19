@@ -41,7 +41,7 @@ nav ul {
   text-decoration: none;
 } 
 
-/* ----- Homepage text ----- */
+/* ----- Homepage text and general text sizes ----- */
 
 .homepage-text {
   padding: 5px 5px 50px 5px;
@@ -52,7 +52,7 @@ h2 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 19px;
   line-height: 24px;
 }
 
