@@ -115,8 +115,24 @@ p {
   margin-top: 40px;
 }
 
+/* ----- Blog entry pages ----- */
 
-/* Media queries */
+.blog-grid2x2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  border-top: 1px solid rgb(200, 200, 200);
+}
+
+.blog-image {
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+
+/* ----- Media queries ----- */
 
 @media screen and (max-width: 767px) {
   .container {
