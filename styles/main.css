@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  top: auto;
+  top: 10px;
   justify-content: center;
   background-color: rgb(255, 250, 245);
   font-family: 'Cormorant', serif;
@@ -11,6 +11,10 @@
 hr {
   border-top: 1px solid rgb(200, 200, 200);
   margin-top: 40px;
+}
+
+.figcaption {
+  font-size: 0.8em;
 }
 
 /* Menu navigation */
