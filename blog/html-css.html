@@ -90,7 +90,7 @@
 
       <figure>
         <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--PwOgBv5_--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/t6vbjui1jm8q52osgfcj.png" alt="HTML inline and block elements" class="blog-image">
-        <figcaption>HTML inline and block elements</figcaption>
+        <figcaption class="figcaption">HTML inline and block elements</figcaption>
       </figure>
 
         <li>- For example, <span class="underline">block</span> elements (like &lt;div&gt;s) start on a new line and are rendered <span class="underline">vertically</span>.</li>
@@ -102,25 +102,67 @@
     <hr>
 
     <div class="blog-entry">
-      <h4><em>position: relative;</em></h4>
+      <h4>&#128073; <em>position: relative;</em></h4>
 
       <ul class="blog-bullets">
         <li>&#128161; position: relative is similar to static, but now we can move an element relative to its original position using the properties top/left/bottom/right.</li>
-
         <li>&#128161; This <span class="underline">does not</span> affect the position of any other elements</li>
+        <br>
+        <li>Let's explain this in an example.</li>
+        <li>- Consider the two &lt;div&gt;s in our HTML file, coloured green and yellow in CSS</li>
 
-      <figure>
-        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--PwOgBv5_--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/t6vbjui1jm8q52osgfcj.png" alt="HTML inline and block elements" class="blog-image">
-        <figcaption>HTML inline and block elements</figcaption>
-      </figure>
+        <figure>
+          <img src="html-position-relative-screenshot.png" alt="HTML code" class="blog-image">
+          <!-- <figcaption class="figcaption">two &lt;div&gt;s</figcaption> -->
+        </figure>
+      
+        <figure>
+          <img src="css-position-relative-screenshot.png" alt="CSS code position relative" class="blog-image">
+          <!-- <figcaption class="figcaption">caption</figcaption> -->
+        </figure>
+        
+        <li>The yellow &lt;div&gt; has position set to relative, and has been positioned 60px from the top, and 100px from the left. The effect of which is shown below:</li>
 
-        <li>- Eg.</li>
-        <li>- <span class="underline">Inline</span> elements (like &lt;span&gt;) do not start on a new line, and are rendered <span class="underline">horizontally</span>.</li>
+        <figure>
+          <img src="position-relative-Screenshot.png" alt="position-relative" class="blog-image">
+          <figcaption class="figcaption">the yellow box has been moved (60px from top and 100px from the left) relative to its original position</figcaption>
+        </figure>
       </ul>
 
     </div>
 
     <hr>
+
+    <div class="blog-entry">
+      <h4>&#128073; <em>position: absolute;</em></h4>
+
+      <ul class="blog-bullets">
+        <li>&#128161; position: absolute -----</li>
+        <li>&#128161; This texttext</li>
+        <br>
+        <li>Let's explain this in an example.</li>
+        <li>- Consider the two &lt;div&gt;s in our HTML file, coloured green and yellow in CSS</li>
+
+        <figure>
+          <img src="html-position-relative-screenshot.png" alt="tbc" class="blog-image">
+          <!-- <figcaption class="figcaption">two &lt;div&gt;s</figcaption> -->
+        </figure>
+      
+        <figure>
+          <img src="css-position-relative-screenshot.png" alt="tbc" class="blog-image">
+          <!-- <figcaption class="figcaption">caption</figcaption> -->
+        </figure>
+        
+        <li>The yellow &lt;div&gt; has position set to relative, and has been positioned 60px from the top, and 100px from the left. The effect of which is shown below:</li>
+
+        <figure>
+          <img src="position-absolute-screenshot.png" alt="position-absolute" class="blog-image">
+          <figcaption class="figcaption">the yellow box has been moved (60px from top and 100px from the left) relative to its original position</figcaption>
+        </figure>
+      </ul>
+
+    </div>
+
 
 
     <hr>
