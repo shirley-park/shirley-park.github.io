@@ -17,6 +17,7 @@
     <h1><a href="../index.html" class="nav-link" id="myName">Shirley Park</a></h1>
     <nav>
       <ul>
+        <li><a href="../index.html" class="nav-link">Home</a></li>
         <li><a href="/Users/shirleypark/Dev-Academy/shirley-park.github.io/index.html#blog-grid" class="nav-link">Blog</a></li>
         <li><a href="about-page.html" class="nav-link">About</a></li>
       </ul>
@@ -37,7 +38,7 @@
 
       <div class="blog-entry">
         <p>
-          Positioning elements in CSS can be a a bit of a mission, but once you understand the basics, everything should start to make sense!
+          Positioning elements in CSS can be a bit of a mission!
         </p>
 
         <p>
@@ -105,10 +106,10 @@
 
       <ul class="blog-bullets">
         <li>&#128161; position: relative; is similar to static, but now we can move an element relative to its original position using the properties top/left/bottom/right.</li>
-        <li>&#128161; This <span class="underline">does not</span> affect the position of any other elements</li>
+        <li>&#128161; This does not affect the position of any other elements.</li>
         <br>
         <li>Let's explain this in an example.</li>
-        <li>Consider the two &lt;div&gt;s in our HTML file, coloured green and yellow in CSS</li>
+        <li>Consider the two &lt;div&gt;s in our HTML file. They are green and yellow (as per the CSS).</li>
 
         <figure>
           <img src="html-position-relative-screenshot.png" alt="HTML code" class="blog-image">
@@ -120,7 +121,7 @@
           <!-- <figcaption class="figcaption">caption</figcaption> -->
         </figure>
         
-        <li>The yellow &lt;div&gt; has position set to relative, and has been positioned 60px from the top, and 100px from the left. The effect of which is shown below:</li>
+        <li>The yellow &lt;div&gt; has position set to relative, and has been placed 60px from the top (from its original position), and 100px from the left. The effect these movements are shown below:</li>
 
         <figure>
           <img src="position-relative-Screenshot.png" alt="position-relative" class="blog-image">
@@ -136,7 +137,7 @@
       <h4>&#128073; <em>position: absolute;</em></h4>
 
       <ul class="blog-bullets">
-        <li>&#128161; elements set to position: absolute; are positioned <span class="underline">relative to their closest positioned ancestor (if any).</span></li>
+        <li>&#128161; elements set to position: absolute; are positioned <span class="underline">relative to their closest positioned ancestor</span> (if any, otherwise relative the &lt;html&gt; root element block).</li>
         <li>&#128161; the specified element is removed from the normal document flow, and other elements will behave as if that element is not in the document.</li>
         <li>&#128161; Once position: absolute; is set on an element, the properties top/left/bottom/right determines its ultimate position.</li>
         <br>
@@ -153,7 +154,7 @@
           <!-- <figcaption class="figcaption">caption</figcaption> -->
         </figure>
         
-        <li>Below the red &lt;div&gt; has position set to absolute, and has been positioned relative to the parent container: 120px from the top, and 100px from the left.</li>
+        <li>- In the image below, the red &lt;div&gt; has position set to absolute, and has been positioned relative to the parent container: 120px from the top, and 100px from the left.</li>
 
         <figure>
           <img src="position-absolute-screenshot.png" alt="position-absolute" class="blog-image">
@@ -169,31 +170,44 @@
       <h4>&#128073; <em>position: fixed;</em></h4>
 
       <ul class="blog-bullets">
-        <li>&#128161; elements set to position: fixed; are positioned <span class="underline">relative to their closest positioned ancestor (if any).</span></li>
-        <li>&#128161; texttext</li>
-        <li>&#128161; text text</li>
+        <li>&#128161; elements set to position: fixed; are also removed from the normal flow direction of a page (like position: absolute;)</span></li>
+        <li>&#128161; However, unlike position: absolute; fixed elements are always positioned relative to the &lt;html&gt; element.</li>
         <br>
         <li>For example:</li>
-        <li>- We have three &lt;div&gt;s green, yellow and red.</li>
+        <li>- Say we have a red and a green &lt;div&gt;</li>
 
         <figure>
-          <img src="html-position-abs-screenshot.png" alt="html code" class="blog-image">
+          <img src="/Users/shirleypark/Dev-Academy/shirley-park.github.io/blog/blog-images/html-position-fixed.png" alt="html code" class="blog-image">
           <!-- <figcaption class="figcaption">two &lt;div&gt;s</figcaption> -->
         </figure>
-        <li>- If we set the red &lt;div&gt; to position: absolute; the top and left properties will move the element relative to its closest parent element that has a set position.</li>
+
+        <li>- and we set the green &lt;div&gt; to position: fixed; and place it 5px from the bottom and 5px from the right.</li>
+
         <figure>
-          <img src="css-position-abs-screenshot.png" alt="css code - position-fixed" class="blog-image">
+          <img src="/Users/shirleypark/Dev-Academy/shirley-park.github.io/blog/blog-images/css-position-fixed.png" alt="css code - position-fixed" class="blog-image">
           <!-- <figcaption class="figcaption">caption</figcaption> -->
         </figure>
         
-        <li>Below the red &lt;div&gt; has position set to absolute, and has been positioned relative to the parent container: 120px from the top, and 100px from the left.</li>
+        <li>- The green &lt;div&gt; will be positioned from the bottom right of the document, and will stay fixed in the that spot even if we scroll.</li>
 
         <figure>
           <img src="position-fixed-screenshot.png" alt="position-fixed" class="blog-image">
-          <!-- <figcaption class="figcaption">entercaption</figcaption> -->
+          <figcaption class="figcaption">The green &lt;div&gt; stays fixed in the position (set by the bottom and right properties) even on scroll.</figcaption>
         </figure>
       </ul>
 
+    </div>
+
+    <hr>
+
+    <div class="blog-entry">
+      <p>
+        Thanks for reading! I hope this post made some sense haha. I'm always open to feedback so feel free to share any suggestions.
+        
+      </p>
+
+      <a href="html-css.html" class="entry-nav">^ GO TO TOP</a>
+  
     </div>
 
     <hr>
@@ -203,8 +217,7 @@
       <ul class="blog-bullets">
         <li>&#128214; https://dev.to/akshayjaagirdhar/differences-between-html-inline-and-blocks-elements-43d7</li>
         <li>&#128214; https://developer.mozilla.org/en-US/docs/Web/CSS/position</li>
-        <li>&#128214; </li>
-        <li>&#128214; </li>
+        <li>&#128214; https://www.freecodecamp.org/news/learn-the-basics-the-css-position-property/</li>
       </ul>
     </div>
 
