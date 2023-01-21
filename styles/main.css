@@ -1,4 +1,7 @@
 .container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   position: relative;
   top: 10px;
   justify-content: center;
@@ -17,39 +20,51 @@ hr {
   font-size: 0.8em;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 /* Menu navigation */
 
-#myName {
+.nav-logo {
   font-family: 'Cormorant', serif;
   font-weight: 300;
-  font-size: 1.3em;
+  font-size: 2.5em;
+  color:#3f3c3c;
+  transition: 100ms;
 }
 
-.nav-container {
+.nav-logo:hover {
+  color: rgb(144, 82, 58);
+}
+
+.navbar {
   display: flex;
-  flex-direction: row;
-  justify-content: left;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav ul {
+.nav-listitem {
   display: inline-flex;
-  padding: 20px;
-  list-style: none;
-  gap: 10px;
+  justify-content: end;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .nav-link {
   color: #3f3c3c;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
-  text-decoration: none;
   transition: 100ms;
 }
 
 .nav-link:hover {
   color: rgb(144, 82, 58);
-  text-decoration: none;
-} 
+}
 
 /* ----- General text sizes ----- */
 
@@ -128,11 +143,10 @@ p {
   font-family: 'Inter', sans-serif;
   color: #3f3c3c;
   font-size: 15px;
-  text-decoration: none;
   padding-bottom: 5px;
   border-bottom: 1px solid rgb(144, 82, 58);
-  /* align-items: bottom; */
 }
+
 
 /* ----- footer ----- */
 
@@ -203,4 +217,3 @@ p {
   }
 
 }
-
