@@ -188,6 +188,14 @@ p {
   text-decoration: underline;
 }
 
+.image-thumbnail {
+  transition: opacity 100ms ease-in-out;
+}
+
+.image-thumbnail:hover {
+  opacity: 75%;
+}
+
 /* ----- Media queries ----- */
 
 @media screen and (max-width: 767px) {
