@@ -88,7 +88,13 @@ h3 {
 
 h4 {
   font-size: 1.5em;
-   font-weight: 400;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1.3em;
+  font-weight: 400;
+  font-style: italic;
 }
 
 p {
@@ -194,6 +200,13 @@ p {
 
 .image-thumbnail:hover {
   opacity: 75%;
+}
+
+.blog-video {
+  max-width: 100%;
+  /* aspect-ratio: 1 / 1; */
+  object-fit: contain;
+  margin-top: 20px;
 }
 
 /* ----- Media queries ----- */
