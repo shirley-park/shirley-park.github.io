@@ -29,146 +29,161 @@
 
     <!-- Blog entry -->
       
-      <p class="blog-tag">Sprint 4 - Tech</p>
+    <p class="blog-tag">Sprint 4 - Tech</p>
+    <h1>Problem Solving</h1>
+    <h2><em>Sprint 4 - tech blog</em></h2>
+    <h3>3 February 2023</h3>
 
-        <h1>Problem Solving</h1>
-          <h2><em>Sprint 4 - tech blog</em></h2>
-            <h3>3 February 2023</h3>
+    <section class="blog-grid2x2">
+
+      <div class="blog-entry">
+        <h4>Problem Solving</h4>
+        <h5>That time I was stuck on a simple problem</h5>
+          <p>
+            For question 3 of the Gradebook kata exercise, the task was to add a new property, testScores, to each student property in the gradebook. The value of testScores should be equal to the student&#39;s scores in the scores array.
+          </p>
+          <p>
+            I often write out (with pen and paper) the problem and the desired result before writing out the steps in pseudocode.
+          </p>
+          <p>
+            On pen and paper, I figured the problem could be solved by looping through the names in the students array and assigning their corresponding scores from the scores array.
+          </p>
+          <p>
+            Instead of using a for loop, I wanted to use an array method as I wanted more practise on these.
+          </p>
+          <p>
+            I googled the most suitable array method, which turned out to be forEach(). However after reading the MDN docs I couldn't get my head around how to access the index of the array (the i in the for loop).
+          </p>
+      </div>
+      
+      <div class="blog-entry">
+        <img src="https://source.unsplash.com/-nqlMPecTWQ/" alt="Neuroplasticity" class="blog-image">
+      </div>
+
+    </section>
+
+    <hr style="border-top: dotted 3px; color:rgb(202, 202, 202)">
+
+    <div class="blog-entry">
+    <p>
+      &#129335;&#127995;&#8205;&#9792;&#65039; For no particular reason, I thought the forEach() method could take only one parameter.
+      </p>
+      <p>
+        &#128529; So I was stuck with the code below for a while:
+      </p>
+      <img src="../images/problem-solving-gradebook1.png" alt="gradebook challenge - stuck on forEach array method" class="blog-image">
+      <p>
+        &#129292; Then i went totally down the wrong path of looking up nested for loops...
+      </p>
+      <p>
+        &#129488; After a bit of a break I did some googling and finally found the perfect answer from freeCodeCamp:
+      </p>
+      <img src="../images/problem-solving-freeCodeCamp-forEach.png" alt="forEach method optional parameters" class="blog-image">
+
+      <p>
+        &#127881; Hurrah! So all I needed was an i included as a parameter in the forEach function:
+      </p>
+      <img src="../images/problem-solving-gradebook2.png" alt="forEach method with index in parameter" class="blog-image">
+  </div>
+
+  <section class="blog-grid2x2">
+
+    <div class="blog-entry">
+        <p>
+          Wow, &#129318;&#127995;&#8205;&#9792;&#65039; I felt super incompetent during that whole exercise, especially because the syntax was in the MDN docs I first consulted. So yea, I'm still in the phase where I read MDN and still don't really understand the syntax.
+        </p>
+        <p>
+          Being stuck in these kata challenges was a great opportunity to get comfortable with getting completely lost!
+        </p>
+    </div>
+    
+    <div class="blog-entry">
+      <div style="width:100%;height:0;padding-bottom:55%;position:relative;"><iframe src="https://giphy.com/embed/oyFyFiXz0hrnG" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed blog-image"  allowFullScreen></iframe></div>
+    </div>
+
+  </section>
 
 
-            <section class="blog-grid2x2">
+  <hr>
 
-              <div class="blog-entry">
-                <h4>Problem Solving</h4>
-                <h5>That time I was stuck on a simple problem</h5>
-                 <p>
-                    <li class="blog-bullets">- what problem-solving techniques did you use?</li>
-                    <li class="blog-bullets">- how did you feel throughout the process?</li>
-                    <li class="blog-bullets">- what did you learn?</li>
-                 </p>
-                 <p>
-                    For question 3 of the Gradebook kata exercise, the task was to add a new property, testScores, to each student property in the gradebook. The value of testScores should be equal to the student&#39;s scores in the scores array.
-                 </p>
-                 <p>
-                    I often write out (with pen and paper) the problem and the desired result before writing out the steps in pseudocode.
-                 </p>
-                 <p>
-                    On pen and paper, I figured the problem could be solved by looping through the names in the students array and assigning their corresponding scores from the scores array.
-                 </p>
-                 <p>
-                    Instead of using a for loop, I wanted to use an array method as I wanted more practise on these.
-                 </p>
-                 <p>
-                    I googled the most suitable array method, which turned out to be forEach(). However after reading the MDN docs I couldn't get my head around how to access the index of the array (the i in the for loop).
-                 </p>
-                 <p>
-                  &#129335;&#127995;&#8205;&#9792;&#65039; For no particular reason, I thought the forEach() method could take only one parameter.
-                 </p>
-                 <p>
-                  &#129318;&#127995;&#8205;&#9792;&#65039; So I was stuck with the code below for a while :
-                 </p>
-                 <img src="../images/problem-solving-gradebook1.png" alt="gradebook challenge - stuck on forEach array method" class="blog-image">
-                 <p>
-                  &#128529; Then i was went totally down the wrong path of looking up nested for loops!
-                 </p>
-                 <p>
-                  &#129488; I kept googling and finally found the perfect answer from freeCodeCamp:
-                 </p>
-                 <img src="../images/problem-solving-freeCodeCamp-forEach.png" alt="forEach method optional parameters" class="blog-image">
-              </div>
-        
-              <div class="blog-entry">
-                <img src="https://source.unsplash.com/-nqlMPecTWQ/" alt="Neuroplasticity" class="blog-image">
-              </div>
+  <div class="blog-entry">
+    <h5>That time I elegantly solved a problem</h5>
+    <p>
+      <li class="blog-bullets">- what was the problem?</li>
+      <li class="blog-bullets">- what problem-solving techniques did you use?</li>
+      <li class="blog-bullets">- how did you feel throughout the process?</li>
+      <li class="blog-bullets">- what did you learn?</li>  
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <ul>
+          <li class="blog-bullets">- Lorem ipsum dolor sit amet</li>
+        </ul>
+    </p>
+  </div>
 
-            </section>
-            
-            <hr>
+  <section class="blog-grid2x2">
 
-            <div class="blog-entry">
-              <h5>That time I elegantly solved a problem</h5>
-              <p>
-                <li class="blog-bullets">- what was the problem?</li>
-                <li class="blog-bullets">- what problem-solving techniques did you use?</li>
-                <li class="blog-bullets">- how did you feel throughout the process?</li>
-                <li class="blog-bullets">- what did you learn?</li>  
-              </p>
-              <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  <ul>
-                    <li class="blog-bullets">- Lorem ipsum dolor sit amet</li>
-                  </ul>
-              </p>
-            </div>
+    <div class="blog-entry">
+      <h5>A reflection on using problem-solving techniques:</h5>
+      <h6>Pseudocode</h6>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <h6>Trying something</h6>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <h6>Rubber ducky method</h6>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <h6>Reading error messages</h6>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <h6>Googling</h6>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <h6>Asking your peers for help</h6>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <h6>Asking coaches for help</h6>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <h6>Improving your process with reflection</h6>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+  
+    </div>
 
-            <hr>
+    <div class="blog-entry">
+      <!-- <iframe src="https://giphy.com/embed/CGMcKCEy4Dct2" width="480" height="359" frameBorder="0" class="blog-image" allowFullScreen></iframe> -->
+    </div>
+  </section>
 
-            <div class="blog-entry">
-              <h5>A reflection on using problem-solving techniques:</h5>
-              <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  <ul>
-                    <li class="blog-bullets">- Pseudocode</li>
-                    <li class="blog-bullets">- Trying something</li>
-                    <li class="blog-bullets">- Rubber ducky method</li>
-                    <li class="blog-bullets">- Reading error messages</li>
-                    <li class="blog-bullets">- Console.logging</li>
-                    <li class="blog-bullets">- Googling</li>
-                    <li class="blog-bullets">- Asking your peers for help</li>
-                    <li class="blog-bullets">- Asking coaches for help</li>
-                    <li class="blog-bullets">- Improving your process with reflection</li>
-                  </ul>
-              </p>
-            </div>
+  <hr>
 
-            <section class="blog-grid2x2">
+  <div class="blog-entry">
+    <p>
+      Thanks for reading! Feel free to share your thoughts and suggestions on the blog post above.
+    </p>
 
-              <div class="blog-entry">
-                <h4>Problem Solving</h4>
-                <h5>A reflection on using problem-solving techniques:</h5>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    <ul>
-                      <li class="blog-bullets">- Pseudocode</li>
-                      <li class="blog-bullets">- Trying something</li>
-                      <li class="blog-bullets">- Rubber ducky method</li>
-                      <li class="blog-bullets">- Reading error messages</li>
-                      <li class="blog-bullets">- Console.logging</li>
-                      <li class="blog-bullets">- Googling</li>
-                      <li class="blog-bullets">- Asking your peers for help</li>
-                      <li class="blog-bullets">- Asking coaches for help</li>
-                      <li class="blog-bullets">- Improving your process with reflection</li>
-                    </ul>
-                </p>
-                </div>
+    <a href="../blog/problem-solving.html" class="entry-nav">^ GO TO TOP</a>
 
-                <div class="blog-entry">
-                  <!-- <iframe src="https://giphy.com/embed/CGMcKCEy4Dct2" width="480" height="359" frameBorder="0" class="blog-image" allowFullScreen></iframe> -->
-                </div>
+  </div>
 
-            </section>
+  <hr>
 
-            <hr>
+  <footer class="footer">
+    <p>
+      © Shirley's Blog 2023
+    </p>
+  </footer>
 
-            <div class="blog-entry">
-              <p>
-                Thanks for reading! Feel free to share your thoughts and suggestions on the blog post above.
-              </p>
-          
-              <a href="../blog/problem-solving.html" class="entry-nav">^ GO TO TOP</a>
-
-            </div>
-
-            <hr>
-
-            <footer class="footer">
-              <p>
-                © Shirley's Blog 2023
-              </p>
-            </footer>
-
-          </body>
-        </html>
+  </body>
+</html>
